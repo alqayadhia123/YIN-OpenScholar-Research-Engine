@@ -1,0 +1,27 @@
+# Render Blueprint for the FastAPI backend.
+# SQLite persistence requires a paid Render service with a persistent disk.
+services:
+  - type: web
+    name: yin-research-api
+    runtime: docker
+    plan: starter
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    autoDeploy: false
+    disk:
+      name: yin-sqlite-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: YIN_DB_PATH
+        value: /var/data/yin.sqlite3
+      - key: YIN_LLM_BASE_URL
+        sync: false
+      - key: YIN_LLM_API_KEY
+        sync: false
+      - key: YIN_LLM_MODEL
+        sync: false
+      - key: YIN_LLM_TIMEOUT
+        value: "60"
+      - key: YIN_OPENSCHOLAR_BRIDGE_URL
+        sync: false
