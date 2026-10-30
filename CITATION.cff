@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software in academic work, please cite it using the metadata below."
+type: software
+title: "YIN OpenScholar Research Engine"
+authors:
+  - family-names: Alqayadhi
+    given-names: "Abdulbari Ahmed"
+    orcid: "https://orcid.org/0009-0009-1670-4911"
+version: 0.4.0
+license: MIT
+repository-code: "https://github.com/alqayadhia123/YIN-OpenScholar-Research-Engine"
+abstract: >-
+  A bilingual research-literature discovery and workflow-tracking tool using
+  OpenAlex and Crossref, with DOI metadata checks, reference export, and
+  optional language-model-assisted claim review. Outputs require human
+  verification and do not constitute a complete systematic review.
+keywords:
+  - research discovery
+  - literature review
+  - OpenAlex
+  - Crossref
+  - DOI
+  - research software
+  - Arabic
+  - English
