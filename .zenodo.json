@@ -1,0 +1,24 @@
+{
+  "upload_type": "software",
+  "title": "YIN OpenScholar Research Engine",
+  "description": "A bilingual research-literature discovery and workflow-tracking tool using OpenAlex and Crossref, with DOI metadata checks, reference export, and optional language-model-assisted claim review. Outputs require human verification and do not constitute a complete systematic review.",
+  "creators": [
+    {
+      "name": "Abdulbari Ahmed Alqayadhi",
+      "orcid": "0009-0009-1670-4911"
+    }
+  ],
+  "version": "0.4.0",
+  "license": "mit",
+  "keywords": [
+    "research discovery",
+    "literature review",
+    "OpenAlex",
+    "Crossref",
+    "DOI",
+    "research software",
+    "Arabic",
+    "English"
+  ],
+  "language": "eng"
+}
