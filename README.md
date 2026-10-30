@@ -147,3 +147,9 @@ The frontend can be deployed separately from the repository:
 - [ ] LLM audit and OpenScholar synthesis are tested only if their backend credentials/services are configured.
 
 Cloud resources have not been created by this repository change. Actual deployment requires the user to connect the GitHub repository and approve any paid plan or disk.
+
+## License, citation, and archival metadata
+
+The project owner selected the MIT License for the original YIN project code; see [LICENSE](LICENSE). This does not relicense third-party libraries, services, or datasets. Their separate terms and licenses must be reviewed before redistribution.
+
+Machine-readable citation metadata is provided in [CITATION.cff](CITATION.cff), and preliminary Zenodo metadata is provided in [.zenodo.json](.zenodo.json). These files only prepare metadata: they do not mean that the project has been deposited in Zenodo or that a DOI has been issued. No archival release or DOI is approved at this stage. Review licensing, dependencies, repository contents, tests, and metadata before creating a release or depositing any snapshot.
